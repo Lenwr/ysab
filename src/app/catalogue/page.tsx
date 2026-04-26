@@ -6,16 +6,16 @@ import { createClient } from "@/src/lib/supabase/server";
 const categories = [
   {
     name: "Wax Hollandais",
-    image:"/waxhollandais.jpg"},
+    image:"/images/waxhollandais.jpg"},
   {
     name: "Super-Wax",
-    image:"/waxhollandais.jpg"  },
+    image:"/images/waxhollandais.jpg"  },
   {
     name: "Satin Royal",
-    image:"/waxhollandais.jpg" },
+    image:"/images/waxhollandais.jpg" },
   {
     name: "Grand Super-Wax",
-    image:"/waxhollandais.jpg" },
+    image:"/images/waxhollandais.jpg" },
 ];
 
 export default async function CataloguePage() {
@@ -61,7 +61,7 @@ export default async function CataloguePage() {
           playsInline
           className="absolute inset-0 h-full w-full object-cover opacity-55"
         >
-          <source src="/videoaccueil.webm" type="video/webm" />
+          <source src="/videos/videoaccueil.webm" type="video/webm" />
         </video>
 
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/60 to-black/20" />

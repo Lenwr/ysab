@@ -85,7 +85,7 @@ export default async function Home() {
         </div>
 
         <div className="grid gap-5 md:grid-cols-4">
-          {["Wax", "Super Wax", "Bazin", "Nouveautés"].map((item) => (
+          {["Wax", "Super Wax", "Nouveautés"].map((item) => (
             <Link
               key={item}
               href="/catalogue"
