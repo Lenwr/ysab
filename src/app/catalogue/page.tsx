@@ -104,41 +104,10 @@ export default async function CataloguePage() {
 
       <section className="mx-auto max-w-[1600px] px-6 py-12">
        
-
-        <div className="mb-12 overflow-x-auto pb-4">
-          <div className="flex gap-6">
-            {categories.map((category) => (
-              <Link
-                key={category.name}
-                href="/catalogue"
-                className="group relative min-w-[280px] overflow-hidden rounded-[2rem] shadow-md md:min-w-[340px]"
-              >
-                <div className="relative aspect-[4/3]">
-                  <Image
-                    src={category.image}
-                    alt={category.name}
-                    fill
-                    sizes="340px"
-                    className="object-cover transition duration-500 group-hover:scale-110"
-                  />
-                </div>
-
-                <div className="absolute inset-0 bg-black/30 transition group-hover:bg-black/40" />
-
-                <div className="absolute bottom-0 p-6 text-white">
-                  <p className="text-xs uppercase tracking-widest opacity-80">
-                    Collection
-                  </p>
-                  <h2 className="mt-2 text-2xl font-bold">{category.name}</h2>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
         <div className="mb-8 flex flex-col gap-4 border-b border-black/10 pb-6 md:flex-row md:items-center md:justify-between">
           <div>
           
-            <h2 className="mt-2 text-3xl font-bold">Catalogue YSAB</h2>
+            <h2 className="mt-6 text-3xl font-bold">Catalogue YSAB</h2>
           </div>
 
           <p className="text-sm font-medium uppercase tracking-wide text-zinc-500">
