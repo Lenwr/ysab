@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ProductDetailView from "../../../components/catalogue/product-detail-view";
-import { createClient } from "@/src/lib/supabase/server";
+import { createClient } from "@/lib/supabase/server";
 
 type ProductPageProps = {
   params: Promise<{

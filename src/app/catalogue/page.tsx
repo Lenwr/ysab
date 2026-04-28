@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import ProductCard from "../../components/catalogue/product-card";
-import { createClient } from "@/src/lib/supabase/server";
+import { createClient } from "@/lib/supabase/server";
 
 const categories = [
   {

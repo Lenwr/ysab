@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { revalidatePath } from "next/cache";
-import { createClient } from "@/src/lib/supabase/server";
+import { createClient } from "@/lib/supabase/server";
 
 type Product = {
   id: string;
